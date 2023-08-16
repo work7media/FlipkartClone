@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  /* background-color: #f1f3f6; */
+}
+:root{
+  --primary-color:#2874f0;
+}
+.container{
+  padding: 0 8px;
+}
+
+/* header */
+header{
+  background-color: var(--primary-color); 
+  height: 58px;   
+}
+header .nav-container{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+}
+ .logo{
+  display: flex;
+  
+  min-width: 237px;
+  justify-content: flex-end;
+}
+
+header .nav-container .logo img{
+  width: 75px;
+}
+.LOGO{
+  display: block;
+}
+header .nav-container .explore{
+  width: 80px;
+  display: flex;
+  white-space: nowrap;
+
+}
+header .nav-container .explore p{
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .nav-container .explore p .plus-icon{
+  color: #ffe500;
+
+}
+
+  header .nav-container .explore img{
+  margin: 0;
+  width: 10px;
+  height: 10px;
+}
+#cart1{
+  margin-left: 10px;
+}
+
+header .search{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+header .search .search-container{
+  width: 304px;
+  height: 36px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0/ 23%);
+  display: flex;
+
+}
+header .search .search-container input{
+  width: calc(100% - 32px);
+  padding: 16px;
+  outline: none;
+  border: none;
+}
+
+header .search .search-container button{
+  width: 36px;
+  height: 100%;
+  padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #2874f0;
+  font-size: 20px;
+  background-color: #ffffff;
+  border-radius: 0 2px 2px 0;
+}
+
+header .login{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+
+}
+
+header .login button {
+  width: 122px;
+  padding: 5px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+
+}
+
+header .become-seller {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+header .more { 
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100%;
+}
+/*
+header .more svg {
+  font-size: small;
+  
+}
+*/
+
+header .cart {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  color: #ffffff;
+}
+/*
+header .cart svg {
+  margin-right: 8px;
+}
+*/
+
+/* Section 1 */
+
+.section-1 {
+  width: 100;
+  height: 122px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: white;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 16%);
+}
+
+.section-1-container {
+ 
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-1-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-1-item img{
+  width: 64px;
+  height: 64px;
+}
+
+/* Section 2 */
+
+.section-2{
+  margin: 0 1199px 0 0;
+}
+
+.section-2-container{
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+
+/* Section 3 */
+
+.section-3-container{
+  margin-top: 8px;
+  height: 122px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.section-3-container{
+   margin-top: 8px;
+   height: 362px;  
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;                                                                
+}
+.section-3-offers{
+  width: 230px;
+  height: 100%;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.section-3-offers-viewall{
+  margin-top: 70px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 124px ;
+ }
+ .section-3-offers-viewall button{
+  margin-top: 24px;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+ }
+
+.section-3-list{
+  height: 100%;
+  width: calc(100% - 230px);
+  display: flex;
+  overflow-x: auto;
+}
+
+.section-3-item{
+  width: 232px;
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-3-item img{
+  max-width: 200px;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+.section-3-item-head{
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.section-3-item-price{
+  margin-top: 12px;
+  font-size: 16px;
+  color: #388e3c;
+}
+.section-3-item-company {
+  opacity: 0.6;
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* Section 4 */
+
+.section-4-container{
+  margin-top: 8px;
+  height: 122px;
+  
+}
+.section-4-container{
+   margin-top: 8px;
+   height: 362px;  
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;                                                                
+}
+.section-4-offers{
+  width: 230px;
+  height: 100%;
+
+}
+
+.section-4-offers-viewall{
+  margin-top: 132px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 10px 124px;
+ }
+ .section-4-offers-viewall button{
+  margin-top: 24px;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+ }
+
+.section-4-list{
+  height: 100%;
+  width: calc(100% - 230px);
+  display: flex;
+  overflow-x: auto;
+}
+
+.section-4-item{
+  width: 232px;
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.section-4-item img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.section-4-item-head{
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.section-4-item-price{
+  margin-top: 12px;
+  font-size: 16px;
+  color: #388e3c;
+}
+
+/* Section 5 */
+
+.section-5-container{
+  margin-top: 8px;
+  height: 122px;
+  
+}
+.section-5-container{
+   margin-top: 8px;
+   height: 362px;  
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;                                                                
+}
+.section-5-offers{
+  width: 230px;
+  height: 100%;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.section-5-offers-viewall{
+  margin-top: 132px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 10px 124px;
+ }
+ .section-5-offers-viewall button{
+  margin-top: 24px;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+ }
+
+.section-5-list{
+  height: 100%;
+  width: calc(100% - 230px);
+  display: flex;
+  overflow-x: auto;
+}
+
+.section-5-item{
+  width: 232px;
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.section-5-item img{
+  max-width: 200px;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+.section-5-item-head{
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.section-5-item-price{
+  margin-top: 12px;
+  font-size: 16px;
+  color: #388e3c;
+}
+.section-5-item-company {
+  opacity: 0.6;
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* Section 6 */
+
+.section-6-container{
+  margin-top: 8px;
+  height: 122px;
+  
+}
+.section-6-container{
+   margin-top: 8px;
+   height: 362px;  
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;                                                                
+}
+.section-6-offers{
+  width: 230px;
+  height: 100%;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/31d46a8fd93eeedd.jpg?q=90");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.section-6-offers-viewall{
+  margin-top: 132px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 10px 124px;
+ }
+ .section-6-offers-viewall button{
+  margin-top: 24px;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+ }
+
+.section-6-list{
+  height: 100%;
+  width: calc(100% - 230px);
+  display: flex;
+  overflow-x: auto;
+}
+
+.section-6-item{
+  width: 232px;
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.section-6-item img{
+  max-width: 200px;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+.section-6-item-head{
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.section-6-item-price{
+  margin-top: 12px;
+  font-size: 16px;
+  color: #388e3c;
+}
+.section-6-item-company {
+  opacity: 0.6;
+  margin-top: 12px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* Footer */
+footer
+footer .main-1
+{
+  
+}
